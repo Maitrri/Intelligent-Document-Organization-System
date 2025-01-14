@@ -29,7 +29,5 @@ To run the project, ensure the following:
 5. **Content-Based Recommendation Systems**: Developed algorithms to analyze document content for intelligent folder suggestions.    
 6. **System Scalability**: Designed a solution capable of handling large datasets while maintaining performance.  
 
-These points reflect a combination of technical expertise and practical application, showcasing the multifaceted nature of the project.
-
 ### **Project outcome**  
 The system demonstrates high accuracy in categorizing documents and recommending folders, significantly simplifying document management. Users have praised its intuitive design, ease of use, and efficiency in handling large-scale document organization tasks.
