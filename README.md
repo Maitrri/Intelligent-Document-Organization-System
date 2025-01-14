@@ -19,7 +19,17 @@ The Intelligent Document Organization system is an AI-driven solution designed t
 To run the project, ensure the following:  
 - Python 3.x installed.  
 - Google Drive API credentials with service account access.  
-- Optional: Google Colab or a local Python environment for execution.  
+- Optional: Google Colab or a local Python environment for execution.
 
-### **Results**  
+### **Skills Demonstrated**  
+1. **Artificial Intelligence**: Leveraged AI tools like Pinecone for intelligent content analysis and recommendation generation.  
+2. **API Integration**: Implemented the Google Drive API for seamless document upload and organization.  
+3. **Machine Learning**: Applied techniques to automate document categorization and folder recommendations.  
+4. **Data Handling**: Processed and analyzed large volumes of documents with high accuracy.   
+5. **Content-Based Recommendation Systems**: Developed algorithms to analyze document content for intelligent folder suggestions.    
+6. **System Scalability**: Designed a solution capable of handling large datasets while maintaining performance.  
+
+These points reflect a combination of technical expertise and practical application, showcasing the multifaceted nature of the project.
+
+### **Project outcome**  
 The system demonstrates high accuracy in categorizing documents and recommending folders, significantly simplifying document management. Users have praised its intuitive design, ease of use, and efficiency in handling large-scale document organization tasks.
