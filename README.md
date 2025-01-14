@@ -17,9 +17,51 @@ The Intelligent Document Organization system is an AI-driven solution designed t
 
 ### **Prerequisites**  
 To run the project, ensure the following:  
-- Python 3.x installed.  
-- Google Drive API credentials with service account access.  
-- Optional: Google Colab or a local Python environment for execution.
+- **Python 3.x installed.**  
+- **Google Drive API credentials with service account access.** 
+- **Optional: Google Colab or a local Python environment for execution.**
+
+### **Setup Instructions for Intelligent Document Organization**  
+
+1. **Clone the Repository**
+2. **Install Dependencies**:  
+   Install the necessary Python libraries required for running the Intelligent Document Organization system. You can install them using the following command:  
+   ```bash  
+   pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib pinecone-client  
+   ```
+3. **Obtain Google Drive API Credentials**:  
+   To interact with Google Drive, you will need to enable the Google Drive API and create OAuth 2.0 credentials:  
+   - Go to the [Google Developers Console](https://console.developers.google.com/).  
+   - Create a new project.  
+   - Enable the **Google Drive API** for that project.  
+   - Generate OAuth 2.0 credentials and download the credentials JSON file.  
+
+   Save the credentials file as `credentials.json` in the project directory.
+
+4. **Set Up Pinecone API**:  
+   To enable AI-powered document organization, you need a Pinecone account for indexing document content.  
+   - Create an account at [Pinecone.io](https://www.pinecone.io/).  
+   - Get your Pinecone API key from your dashboard.  
+   - Create an index and store the key securely in the project.
+
+5. **Configure API Keys and Credentials**:  
+   - Update the `config.py` file in the repository with your **Google API credentials** (the path to `credentials.json`) and **Pinecone API key**.  
+   - If using Google Colab, upload the `credentials.json` file and configure the environment as needed.
+
+6. **Run the Project**:  
+   After completing the setup, run the Python script to start the intelligent document organization process:  
+   - In Google Colab, execute the cells in the notebook.  
+   - For local execution, run the following command:  
+   ```bash  
+   python organize_documents.py  
+   ```
+7. **Upload and Organize Documents**:  
+   Once the system is running, you can begin uploading documents to Google Drive. The system will automatically analyze their content and suggest suitable folders for organizing them.
+
+8. **Troubleshooting**:  
+   - Ensure the `credentials.json` file is correctly configured and accessible in your working directory.  
+   - Verify that the Pinecone API key is valid and correctly entered.  
+   - Make sure the Google Drive API is properly authenticated before running the code.
 
 ### **Skills Demonstrated**  
 1. **Artificial Intelligence**: Leveraged AI tools like Pinecone for intelligent content analysis and recommendation generation.  
